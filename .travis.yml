@@ -5,11 +5,12 @@ android:
     - tools # to get the new `repository-11.xml`
     - platform-tools
     - tools # see https://github.com/travis-ci/travis-ci/issues/6040#issuecomment-219367943)
-#    - build-tools-24.0.2
     - build-tools-25.0.1
     - android-25
-#    - extra-google-m2repository
-#    - extra-android-m2repository
+# Without these the build fails
+    - extra-google-m2repository
+    - extra-android-m2repository
+# To automatically accept various licenses when prompted, so that we don't get stuck
 licenses:
     - 'android-sdk-preview-license-.+'
     - 'android-sdk-license-.+'
