@@ -8,8 +8,8 @@ android:
 #    - build-tools-24.0.2
     - build-tools-25.0.1
     - android-25
-    - extra-google-m2repository
-    - extra-android-m2repository
+#    - extra-google-m2repository
+#    - extra-android-m2repository
 licenses:
     - 'android-sdk-preview-license-.+'
     - 'android-sdk-license-.+'
